@@ -1,0 +1,175 @@
+
+{
+    "questions": [{
+            "questionText": "Predict the output of the given code,If the variable data is Initialized with value as 2: System.out.println(data-- + --data+ ++data+1);",
+            "options": [{
+                    "text": "0"
+                },
+                {
+                    "text": "2"
+                },
+                {
+                    "text": "3"
+                },
+                {
+                    "text": "4",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following is true about servlets?",
+            "options": [{
+                    "text": "Servlets can use the full functionality of the Java class libraries"
+                },
+                {
+                    "text": " Servlets execute within the address space of web server, platform independent and uses the functionality of java class libraries",
+                    "correct": true
+                },
+                {
+                    "text": "Servlets execute within the address space of web server"
+                },
+                {
+                    "text": "Servlets are platform-independent because they are written in java"
+                }
+            ]
+        },
+        {
+            "questionText": "How many times the constructor of the class Employee will get called? Employee e[]=new Employee[5];",
+            "options": [{
+                    "text": "0 times",
+                    "correct": true
+                },
+                {
+                    "text": "1 time"
+                },
+                {
+                    "text": "5 times"
+                },
+                {
+                    "text": "Compilation Error"
+                }
+            ]
+        },
+        {
+            "questionText": "Assuming a method contains code which may raise an Exception (but not a RuntimeException),what is the correct indicate that it expects the caller to handle that exceptio:",
+            "options": [{
+                    "text": "throw Exception"
+                },
+                {
+                    "text": "throws Exception",
+                    "correct": true
+                },
+                {
+                    "text": "new Exception()"
+                },
+                {
+                    "text": "Don't need to specify anything"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following is the correct to register a JdbcOdbcDriver?",
+            "options": [{
+                    "text": "jdbc.odbc.JdbcOdbcDriver obj = new sun.jdbc.odbc.JdbcOdbcDriver();",
+                    "correct": true
+                },
+                {
+                    "text": "odbc.JdbcOdbcDriver obj = new sun.odbc.JdbcOdbcDriver();"
+                },
+                {
+                    "text": "jdbc.JdbcOdbcDriver obj = new sun.jdbc.JdbcOdbcDriver();"
+                },
+                {
+                    "text": "jdbc.odbc.JdbcOdbc obj = new sun.jdbc.odbc.JdbcOdbc();"
+                }
+            ]
+        },
+        {
+            "questionText": "How does JAVAC or JAVA (JVM) find the packages that will be used inside classes by an import statement?",
+            "options": [{
+                    "text": " If the packages are defined on the same root level as the compiling or running class file, Java knows it."
+                },
+                {
+                    "text": "You should manually use the CLASSPATH or CP command to include the path of the package or single-class for compiling and running"
+                },
+                {
+                    "text": "You can copy the JAR files in LIB folder of Java inside Program Files"
+                },
+                {
+                    "text": "All the Above",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following statements is true?",
+            "options": [{
+                    "text": "In an assert statement, the expression after the colon ( : ) can be any Java expression."
+                },
+                {
+                    "text": "If a switch block has no default, adding an assert default is considered appropriate.",
+                    "correct": true
+                },
+                {
+                    "text": "In an assert statement, if the expression after the colon ( : ) does not have a value, the assert's error message will be empty."
+                },
+                {
+                    "text": "It is appropriate to handle assertion failures using a catch clause."
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following driver converts the JDBC calls into database-specific calls?",
+            "options": [{
+                    "text": "JDBC-ODBC Bridge Driver (Type 1)"
+                },
+                {
+                    "text": "Native API-partly Java Driver (Type 2)",
+                    "correct": true
+                },
+                {
+                    "text": "Net Protocol-pure Java Driver (Type 3)"
+                },
+                {
+                    "text": "Native Protocol-pure Java Driver (Type 4)"
+                }
+            ]
+        },
+        {
+            "questionText": "Which statement is true?",
+            "options": [{
+                    "text": "If a thread is blocked in the wait method of an object, and another thread executes the notify method on the same object, it is still possible that the first thread might never resume execution.",
+                    "correct": true
+                },
+                {
+                    "text": "If only one thread is blocked in the wait method of an object, and another thread executes the modify on that same object, then the first thread immediately resumes execution."
+                },
+                {
+                    "text": "If a thread is blocked in the wait method of an object, and another thread executes the notify method on the same object, then the first thread definitely resumes execution as a direct and sole consequence of the notify call."
+                },
+                {
+                    "text": "If two threads are blocked in the wait method of one object, and another thread executes the notify method on the same object, then the first thread that executed the wait call first definitely resumes execution as a direct and sole consequence of the notify call."
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following statements is true?",
+            "options": [{
+                    "text": "It is sometimes good practice to throw an AssertionError explicitly.",
+                    "correct": true
+                },
+                {
+                    "text": "Private getter() and setter() methods should not use assertions to verify arguments."
+                },
+                {
+                    "text": "If an AssertionError is thrown in a try-catch block, the finally block will be bypassed."
+                },
+                {
+                    "text": "It is proper to handle assertion statement failures using a catch (AssertionException ae) block."
+                }
+            ]
+        }
+    ]
+}

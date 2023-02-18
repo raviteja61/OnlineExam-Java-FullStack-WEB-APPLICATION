@@ -1,0 +1,184 @@
+
+{
+    "questions": [{
+            "questionText": "Which of the following is not a part of CRUD operations in SQL?",
+            "options": [{
+                    "text": "Creating a table."
+                },
+                {
+                    "text": "Deleting records from the table."
+                },
+                {
+                    "text": " Creating a copy of a table.",
+                    "correct": true
+                },
+                {
+                    "text": " Updating the data stored in the table."
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following is not an aggregate function in SQL?",
+            "options": [{
+                    "text": "SUM"
+                },
+                {
+                    "text": "AVG"
+                },
+                {
+                    "text": "COUNT"
+                },
+                {
+                    "text": "FIND",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": " Which keyword allows us to find the unique values in the database?",
+            "options": [{
+                    "text": "DISTINCT",
+                    "correct": true
+                },
+                {
+                    "text": " UNIQUE"
+                },
+                {
+                    "text": " FIND"
+                },
+                {
+                    "text": "DIFF"
+                }
+            ]
+            
+        },
+        {
+            "questionText":"Which of the following is not a data type in SQL?",
+            "options": [{
+                    "text":"int"
+                },
+                {
+                    "text": "Image",
+                    "correct": true
+                },
+                {
+                    "text": "Varchar"
+                    
+                },
+                {
+                    "text": "blob"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following is used to modify the data stored in the database?",
+            "options": [{
+                    "text": "SELECT"
+                },
+                {
+                    "text": "INSERT INTO"
+                },
+                {
+                    "text": "UPDATE",
+                    "correct": true
+
+                },
+                {
+                    "text": "LIMIT"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "What is the full form of SQL?",
+            "options": [{
+                "text": "Structured Question Language"
+                },
+                {
+                    "text": " Structured Query Language",
+                    "correct": true
+                },
+                {
+                    "text": "Structural Query Language"
+                },
+                {
+                    "text": " Structuring Query Language"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following is true about the RDBMS?",
+            "options": [{
+                    "text": " RDBMS stands for the Relational Database Management System.",
+                    "correct": true
+                },
+                {
+                    "text": "RDBMS is mandatory to use to create a database."
+                },
+                {
+                    "text": " Both a and b."
+                },
+                {
+                    "text": " None of these."
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following join extracts data of matching rows from both tables?",
+            "options": [{
+                    "text": " Full Outer Join",
+                    "correct": true
+
+                },
+                {
+                    "text": " Left Join"
+                },
+                {
+                    "text": " Right Join"
+                },
+                {
+                    "text": " None of these."
+                }
+            ]
+        },
+        {
+            "questionText": " What is the difference if we truncate a table and if we drop a table?",
+            "options": [{
+                    "text": "In both cases, the table is deleted."
+
+                },
+                {
+                    "text": "In both cases, the data is deleted."
+                },
+                {
+                    "text": " In truncate, the data is deleted and in drop the whole table is deleted.",
+                    "correct": true
+                },
+                {
+                    "text": " In truncate, the table is deleted while when the table is dropped the data is deleted."
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following shows comment in SQL?",
+            "options": [{
+                "text": " & This is a comment."
+                },
+                {
+                    "text": "# This is a comment."
+                },
+                {
+                    "text": " % This is a comment. %"
+                },
+                {
+                    "text": " /* This is a comment. */",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+<br><br><br><br>
+<div class="container" style="width: 40%; float: left; margin-left: 5%;">
+
+    <form [formGroup]="regForm" (ngSubmit)="register()">
+
+        <h1 style="text-decoration: underline; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center; color: white;">USER REGISTRATION</h1>
+        <br>
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">First Name : </label>
+            <input type="text" class="form-control" name="firstname " formControlName="firstname">
+        </div>
+        <div *ngIf="forms['firstname'].errors && forms['firstname'].touched" style="font-size: x-small; color: red; margin-left: 82%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid First Name!
+          </div>
+        <br>
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Last Name : </label>
+            <input type="text" class="form-control" name="lastname " formControlName="lastname">
+        </div>
+        <div *ngIf="forms['lastname'].errors && forms['lastname'].touched" style="font-size: x-small; color: red; margin-left: 82%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid Last Name!
+          </div>
+        <br>
+
+ <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Email Id :</label>
+            <input type="email" class="form-control" name="email" formControlName="email">
+        </div>
+        <div *ngIf="forms['email'].errors && forms['email'].touched" style="font-size: x-small; color: red; margin-left: 82%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid Email ID!
+          </div>
+        <br>
+
+<div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Password :</label>
+            <input type="password" class="form-control" name="password" formControlName="password">
+        </div>
+        <div *ngIf="forms['password'].errors && forms['password'].touched" style="font-size: x-small; color: red; margin-left: 82%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid Password!
+          </div>
+        <br>
+
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Phone Number :</label>
+            <input type="number" class="form-control" name="phonenumber" formControlName="phonenumber">
+        </div>
+        <div *ngIf="forms['phonenumber'].errors && forms['phonenumber'].touched" style="font-size: x-small; color: red; margin-left: 78%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid Phone Number!
+          </div>
+        <br>
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">City :</label>
+            <input type="text" class="form-control" name="city" formControlName="city">
+        </div>
+        <div *ngIf="forms['city'].errors && forms['city'].touched" style="font-size: x-small; color: red; margin-left: 86%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid input!
+          </div>
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">State :</label>
+            <input type="text" class="form-control" name="state" formControlName="state">
+        </div>
+        <div *ngIf="forms['state'].errors && forms['state'].touched" style="font-size: x-small; color: red; margin-left: 86%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid input!
+          </div>
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Qualification :</label>
+            <input type="text" class="form-control" name="qualification" formControlName="qualification">
+        </div>
+        <div *ngIf="forms['qualification'].errors && forms['qualification'].touched" style="font-size: x-small; color: red; margin-left: 79%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid Qualification!
+          </div>
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Year Of Completion :</label>
+            <input type="number" class="form-control" name="yearofcompletion" formControlName="yearofcompletion">
+        </div>
+        <div *ngIf="forms['yearofcompletion'].errors && forms['yearofcompletion'].touched" style="font-size: x-small; color: red; margin-left: 86%;"> 
+            <i class="fa fa-exclamation-circle" aria-hidden="true" style="color: red;"></i>&nbsp;&nbsp;Invalid Year!
+          </div>
+
+       <div class="form-group">
+            <button type="submit" id="btn_register" [disabled]="regForm.invalid" class="btn btn-primary" style="float: left; margin-left: 43%;">SUBMIT</button>
+        </div>
+
+        <br><br><br><br>
+
+    </form>
+</div>

@@ -1,0 +1,35 @@
+#add{
+
+    background-color: rgb(0, 17, 63);
+
+    color: rgb(255, 255, 255);
+
+    padding: 10px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#remove{
+
+    background-color: rgb(0, 17, 63);
+
+    color: rgb(255, 255, 255);
+
+    padding: 10px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#viewReports{
+
+    background-color: rgb(58, 58, 58);
+
+    color: rgb(179, 255, 1);
+
+    padding: 10px;
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

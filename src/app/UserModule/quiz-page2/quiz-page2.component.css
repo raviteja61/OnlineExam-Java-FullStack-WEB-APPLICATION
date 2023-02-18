@@ -1,0 +1,33 @@
+.card {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.li {
+    list-style-type : none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+li .card:hover {
+    border: 1px solid blue;
+}
+
+ol {
+    padding: 20;
+}
+
+#btn_next_level{
+    background-color: rgb(26, 41, 84);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn_finish {
+    background-color: rgb(26, 41, 84);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

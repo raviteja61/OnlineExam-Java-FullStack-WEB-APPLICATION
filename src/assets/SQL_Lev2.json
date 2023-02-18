@@ -1,0 +1,184 @@
+
+{
+    "questions": [{
+            "questionText": "With SQL, how do you select all the columns from a table named 'Persons'?",
+            "options": [{
+                    "text": "SELECT Persons"
+                },
+                {
+                    "text": "SELECT [all] FROM Persons"
+                },
+                {
+                    "text": "SELECT * FROM Persons",
+                    "correct": true
+                },
+                {
+                    "text": "SELECT *.Persons"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Choose the right select query to display employee salaries in increasing order of salary.",
+            "options": [{
+                    "text": "select salary order by from employees"
+                },
+                {
+                    "text": "select * from employees order by salary"
+                },
+                {
+                    "text": "select * from employees order by"
+                },
+                {
+                    "text": "select salary from employees order by salary",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "With SQL, how can you return all the records from a table named 'Persons' sorted descending by 'FirstName'?",
+            "options": [{
+                    "text": "SELECT * FROM Persons ORDER BY FirstName DESC",
+                    "correct": true
+                },
+                {
+                    "text": "SELECT * FROM Persons SORT BY 'FirstName' DESC"
+                },
+                {
+                    "text": "SELECT * FROM Persons SORT 'FirstName' DESC"
+                },
+                {
+                    "text": "SELECT * FROM Persons ORDER FirstName DESC"
+                }
+            ]
+            
+        },
+        {
+            "questionText":"Which of the below Query can be used to set the new Auto - increment value to 500 in our table.;",
+            "options": [{
+                    "text":" Update DataFlair AutoIncrement = 500;"
+                },
+                {
+                    "text": "ALTER TABLE DataFlair AUTO_INCREMENT = 500;",
+                    "correct": true
+                },
+                {
+                    "text": "ALTER DataFlair TABLE Auto_Increment = 500;"
+                    
+                },
+                {
+                    "text": "ALTER DataFlair Increment_value = 500;"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Write a query to grab the current time of the system?",
+            "options": [{
+                    "text": " SELECT timestamp() as TimeNow;"
+                },
+                {
+                    "text": "SELECT current() as TimeNow;"
+                },
+                {
+                    "text": " SELECT current_timestamp() as TimeNow;",
+                    "correct": true
+
+                },
+                {
+                    "text": " None of the above."
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the below is an invalid query?",
+            "options": [{
+                "text": " SELECT * FROM DataFlair Where experience!=0;"
+                },
+                {
+                    "text": " SELECT Unique(name) FROM DataFlair;",
+                    "correct": true
+                },
+                {
+                    "text": " Select name FROM DataFlair;"
+                },
+                {
+                    "text": " None of these"
+                }
+            ]
+            
+        },
+        {
+            "questionText": " Which of the following conditions has to be satisfied for INNER JOIN to work?",
+            "options": [{
+                    "text": "Columns used for joining can have same or different name",
+                    "correct": true
+                },
+                {
+                    "text": "Columns used for joining must have same name"
+                },
+                {
+                    "text": "Columns used for joining must have different names"
+                },
+                {
+                    "text": " Columns used for joining must have different names"
+                }
+            ]
+        },
+        {
+            "questionText": "In a relational database a referential Integrity constraint can be specified with the help of___________",
+            "options": [{
+                    "text": "Primary Key",
+                    "correct": true
+
+                },
+                {
+                    "text": "foreign Key"
+                },
+                {
+                    "text": "secondary Key"
+                },
+                {
+                    "text": "None of the Options"
+                }
+            ]
+        },
+        {
+            "questionText": "The normal form which is based on the transitive dependency is classified as________________.",
+            "options": [{
+                    "text": "Fourth Normal Form"
+
+                },
+                {
+                    "text": "First Normal Form"
+                },
+                {
+                    "text": "Third Normal Form",
+                    "correct": true
+                },
+                {
+                    "text": "Second Normal Form"
+                }
+            ]
+        },
+        {
+            "questionText": "Relation R1 has 10 tuples and 5 attributes. Relation R2 has 0 tuples and 7 attributes. When a CROSS JOIN is achieved between R1 and R2, how many tuples would the resultant set have?",
+            "options": [{
+                "text": "28"
+                },
+                {
+                    "text": "10"
+                },
+                {
+                    "text": "35"
+                },
+                {
+                    "text": "0",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+<br><br><br><br><br>
+<div class="container bg-light py-5">
+    <h1 class="display-5 fw-bold">Welcome to Quiz Page</h1>
+    <p class="col-md-8 fs-4">This quiz will contain total of 10 questions. Each question carries 10 marks each.</p>
+    <h3 fw-bold>Rules : </h3>
+    <ol>
+        <li>Correct Answer gives you 10 marks</li>
+        <li>Incorrect Answer gives you -10 marks</li>
+        <li>You will have 60 seconds to answer each question</li>
+        <li>Refreshing or Swiutching will reset the Quiz</li>
+        <li>Unattempted questions will be marked as Incorrect. Hence, -10 for each Unattempted Question.</li>
+    </ol>
+    <h1 style="font-family: cursive; text-align: right;">All The Best!</h1>
+    <div class="name col-md-4 my-3">
+        <label>Enter your name : </label>
+        <input #name type="text" class="form-control">
+    </div>
+    <button class="btn btn-primary btn-lg" (click)="startQuiz()">Start the Quiz</button>
+</div>

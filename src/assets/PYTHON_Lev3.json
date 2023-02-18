@@ -1,0 +1,176 @@
+
+{
+    "questions": [{
+            "questionText": "What would be the output of the following code snippet? (lambda x: (x + 3) * 5 / 2)(3)",
+            "options": [{
+                    "text": "0"
+                },
+                {
+                    "text": "SyntaxError"
+                },
+                {
+                    "text": "30.0"
+                },
+                {
+                    "text": "15.0",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "In this list, how will you access the letter 't' in 'bat'? list = [1, ['a', 'b', ['kill', 'bat', 'cup'], 'c'], 3]",
+            "options": [{
+                    "text": "list[1, 2, 1, 2]"
+                },
+                {
+                    "text": "list[1][2][1][2]",
+                    "correct": true
+                },
+                {
+                    "text": "list[2][1][2]"
+                },
+                {
+                    "text": "list[1][2][1]"
+                }
+            ]
+        },
+        {
+            "questionText": "In the following code, how many objects and references does Python create? name = 'Ayushi' fname = name",
+            "options": [{
+                    "text": "One object, one reference"
+                },
+                {
+                    "text": "One object, two references",
+                    "correct": true
+                },
+                {
+                    "text": "Two objects, one reference"
+                },
+                {
+                    "text": "Two objects, two references"
+                }
+            ]
+        },
+        {
+            "questionText": "Polymorphism is when a subclass can modify the behavior of its superclass.",
+            "options": [{
+                    "text": " False"
+                },
+                {
+                    "text": "True",
+                    "correct": true
+                },
+                {
+                    "text": "Depends on the contents of the class"
+                },
+                {
+                    "text": "This is an invalid question"
+                }
+            ]
+        },
+        {
+            "questionText": "How will you not create a dictionary?",
+            "options": [{
+                    "text": "d = { ('milk', 50), ('celery', 40) }",
+                    "correct": true
+                },
+                {
+                    "text": "d = dict([ ('milk', 50), ('celery', 40) ])"
+                },
+                {
+                    "text": "d = {} d['milk'] = 50 d['celery'] = 40"
+                },
+                {
+                    "text": "d = dict(milk=50, celery=40)"
+                }
+            ]
+        },
+        {
+            "questionText": " Assume the output? values = [[3, 4, 5, 1], [33, 6, 1, 2]] v = values[0][0] for lst in values: for element in lst: if v > element: v = element print(v)",
+            "options": [{
+                    "text": "33"
+                },
+                {
+                    "text": "1"
+                },
+                {
+                    "text": "2"
+                },
+                {
+                    "text": "3",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Assume the output? a=list((45,)*4) print((45)*4) print(a)",
+            "options": [{
+                    "text": "180[(45),(45),(45),(45)]."
+                },
+                {
+                    "text": "180[45,45,45,45].",
+                    "correct": true
+                },
+                {
+                    "text": "(45,45,45,45).[45,45,45,45]."
+                },
+                {
+                    "text": "Syntax error"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the output? print('{:#}'.format(1112223334))",
+            "options": [{
+                    "text": "1112223334",
+                    "correct": true
+                },
+                {
+                    "text": "1,22,4,222,4"
+                },
+                {
+                    "text": "1,4,2,3"
+                },
+                {
+                    "text": "1234"
+                }
+            ]
+        },
+        {
+            "questionText": " Which of the following functions can be used to find the coordinated universal time, assuming that the datetime module has already been imported?",
+            "options": [{
+                    "text": "datetime.utc()"
+                },
+                {
+                    "text": "datetime.datetime.utc()"
+                },
+                {
+                    "text": "datetime.utcnow()"
+                },
+                {
+                    "text": "datetime.datetime.utcnow()",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": " What is the base case in the Merge Sort algorithm when it is solved recursively?",
+            "options": [{
+                    "text": "An empty list"
+                },
+                {
+                    "text": "A list of length one",
+                    "correct": true
+
+                },
+                {
+                    "text": "n=0"
+                },
+                {
+                    "text": "n=1"
+                }
+            ]
+        }
+    ]
+}

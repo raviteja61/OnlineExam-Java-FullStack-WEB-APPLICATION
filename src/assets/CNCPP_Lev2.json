@@ -1,0 +1,175 @@
+
+{
+    "questions": [{
+            "questionText": "What will happen if in a C program you assign a value to an array element whose subscript exceeds the size of array?",
+            "options": [{
+                    "text": "The element will be set to 0."
+                },
+                {
+                    "text": "The compiler would report an error."
+                },
+                {
+                    "text": "The array size would appropriately grow."
+                },
+                {
+                    "text": "The program may crash if some important data gets overwritten.",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following statements is correct in C++?",
+            "options": [{
+                    "text": "Classes cannot have data as protected members."
+                },
+                {
+                    "text": "Structures can have functions as members.",
+                    "correct": true
+                },
+                {
+                    "text": "Class members are public by default."
+                },
+                {
+                    "text": "Structure members are private by default."
+                }
+            ]
+        },
+        {
+            "questionText": "What do the following declaration signify? char *arr[10];",
+            "options": [{
+                    "text": "arr is a array of function pointer."
+                },
+                {
+                    "text": "arr is a array of 10 character pointers.",
+                    "correct": true
+                },
+                {
+                    "text": "arr is a array of characters."
+                },
+                {
+                    "text": "arr is a pointer to array of characters."
+                }
+            ]
+        },
+        {
+            "questionText": "A static function",
+            "options": [{
+                    "text": "Should be called when an object is destroyed"
+                },
+                {
+                    "text": "Can be called using the class name and function",
+                    "correct": true
+                },
+                {
+                    "text": "Is closely connected with an individual object of a class"
+                },
+                {
+                    "text": "Is used when a dummy object must be created"
+                }
+            ]
+        },
+        {
+            "questionText": "In which stage the following code #include<stdio.h> gets replaced by the contents of the file stdio.h",
+            "options": [{
+                    "text": "During preprocessing",
+                    "correct": true
+                },
+                {
+                    "text": "During editing"
+                },
+                {
+                    "text": "During linking"
+                },
+                {
+                    "text": "During execution"
+                }
+            ]
+        },
+        {
+            "questionText": "What happens when a class with parameterized constructors and having no default constructor is used in a program and we create an object that needs a zero-argument constructor?",
+            "options": [{
+                    "text": "Preprocessing error."
+                },
+                {
+                    "text": "Runtime error."
+                },
+                {
+                    "text": "Runtime exception."
+                },
+                {
+                    "text": "Compile-time error.",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following cannot be checked in a switch-case statement?",
+            "options": [{
+                    "text": "Character"
+                },
+                {
+                    "text": "Float",
+                    "correct": true
+                },
+                {
+                    "text": "Integer"
+                },
+                {
+                    "text": "enum"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the correct way to create an object called myObj of MyClass?",
+            "options": [{
+                    "text": "MyClass myObj;",
+                    "correct": true
+                },
+                {
+                    "text": "new myObj = MyClass();"
+                },
+                {
+                    "text": "class myObj = new MyClass();"
+                },
+                {
+                    "text": "class MyClass = new myObj();"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the similarity between a structure, union and enumeration?",
+            "options": [{
+                    "text": "All of them let you define new data types",
+                    "correct": true
+                },
+                {
+                    "text": "All of them let you define new values"
+                },
+                {
+                    "text": "All of them let you define new pointers"
+                },
+                {
+                    "text": "All of them let you define new structures"
+                }
+            ]
+        },
+        {
+            "questionText": "How do you start writing a while loop in C++?",
+            "options": [{
+                    "text": "while (x > y)  ",
+                    "correct": true
+                },
+                {
+                    "text": "while x > y:"
+                },
+                {
+                    "text": "while x > y {"
+                },
+                {
+                    "text": "x > y while {"
+                }
+            ]
+        }
+    ]
+}

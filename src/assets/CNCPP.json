@@ -1,0 +1,184 @@
+
+{
+    "questions": [{
+            "questionText": " A Variable name in C includes which special symbols?",
+            "options": [{
+                    "text": " * (asterisk)"
+                },
+                {
+                    "text": " # (Hash)"
+                },
+                {
+                    "text": " _ (underscore)",
+                    "correct": true
+                },
+                {
+                    "text": " + (Addition)"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "In C, if you pass an array as an argument to a function, what actually gets passed?",
+            "options": [{
+                    "text": "Value of elements in array"
+                },
+                {
+                    "text": "First element of the array"
+                },
+                {
+                    "text": "Address of the last element of array"
+                },
+                {
+                    "text": "Base address of the array",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "C++ was developed by ___",
+            "options": [{
+                    "text": "Bjarne Stroutstrup",
+                    "correct": true
+                },
+                {
+                    "text": "John Kemney"
+                },
+                {
+                    "text": "Thomas Kushz"
+                },
+                {
+                    "text": "James Goling"
+                }
+            ]
+            
+        },
+        {
+            "questionText":"Which of the following function sets first n characters of a string to a given character?",
+            "options": [{
+                    "text":"strinit()"
+                },
+                {
+                    "text": "strnset()",
+                    "correct": true
+                },
+                {
+                    "text": "strset()"
+                    
+                },
+                {
+                    "text": "strcset()"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "The modulus operator uses ___ character.",
+            "options": [{
+                    "text": "+"
+                },
+                {
+                    "text": "*"
+                },
+                {
+                    "text": "%",
+                    "correct": true
+
+                },
+                {
+                    "text": "/"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "If one or more structure are other structures, then the structure is known as",
+            "options": [{
+                "text": "Structured structure"
+                },
+                {
+                    "text": "Nested structure",
+                    "correct": true
+                },
+                {
+                    "text": "Invalid structure"
+                },
+                {
+                    "text": "Self referential structure"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "How many storage specifies are there in a C++?",
+            "options": [{
+                    "text": "2"
+                },
+                {
+                    "text": "3"
+                },
+                {
+                    "text": "4",
+                    "correct": true
+                },
+                {
+                    "text": "5"
+                }
+            ]
+        },
+        {
+            "questionText": "____ operators have lower precedence to relational and arithmetic operators.",
+            "options": [{
+                    "text": "Relational",
+                    "correct": true
+
+                },
+                {
+                    "text": "Conditional"
+                },
+                {
+                    "text": "Boolean"
+                },
+                {
+                    "text": "Logical"
+                }
+            ]
+        },
+        {
+            "questionText": "Classes are useful because they",
+            "options": [{
+                    "text": "Can closely model objects in the real world"
+
+                },
+                {
+                    "text": " Bring together all aspects of an entity in one place"
+                },
+                {
+                    "text": " Permit data to be hidden from other classes",
+                    "correct": true
+                },
+                {
+                    "text": "Are removed from memory when not in use"
+                }
+            ]
+        },
+        {
+            "questionText": "Scope of the Variable refers to",
+            "options": [{
+                "text": "Duration for which the variable retains a given value during program execution."
+                },
+                {
+                    "text": "Value of the variable."
+                },
+                {
+                    "text": "Data type of the variable."
+                },
+                {
+                    "text": "Part of a program in which the variable can be recognized.",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

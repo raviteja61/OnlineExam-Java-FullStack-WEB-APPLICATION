@@ -1,0 +1,175 @@
+
+{
+    "questions": [{
+            "questionText": " What is the output of the following code? print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))",
+            "options": [{
+                    "text": "False True False True"
+                },
+                {
+                    "text": "True True False True"
+                },
+                {
+                    "text": "True True False True"
+                },
+                {
+                    "text": "False True True True",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which operator has higher precedence in the following list",
+            "options": [{
+                    "text": "% (Modulus)"
+                },
+                {
+                    "text": "** (Exponent)",
+                    "correct": true
+                },
+                {
+                    "text": "& (BitWise AND)"
+                },
+                {
+                    "text": "> (Comparison)"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the output of the expression  print(-18 // 4)",
+            "options": [{
+                    "text": "5"
+                },
+                {
+                    "text": "-5",
+                    "correct": true
+                },
+                {
+                    "text": "4"
+                },
+                {
+                    "text": "-4"
+                }
+            ]
+        },
+        {
+            "questionText": " What is the output of the following print() function? print('%d %d %.2f' % (11, '22', 11.22))",
+            "options": [{
+                    "text": "11 22 11.22"
+                },
+                {
+                    "text": "TypeError",
+                    "correct": true
+                },
+                {
+                    "text": "11 '22' 11.22"
+                },
+                {
+                    "text": "11 22 '11.22'"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following best describes Polymorphism?",
+            "options": [{
+                    "text": "Allows for objects of different types and behaviour to be treated as the same general type",
+                    "correct": true
+                },
+                {
+                    "text": "Ability of a class to derive members of another class as a part of its own definition"
+                },
+                {
+                    "text": "Means of bundling instance variables and methods in order to restrict access to certain class members"
+                },
+                {
+                    "text": "Focuses on variables and passing of variables to functiions"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the order of precedence in python?",
+            "options": [{
+                    "text": "Exponential, Parentheses, Multiplication, Division, Addition, Subtraction"
+                },
+                {
+                    "text": "Exponential, Parentheses, Division, Multiplication, Addition, Subtraction"
+                },
+                {
+                    "text": "Parentheses, Exponential, Multiplication, Division, Subtraction, Addition"
+                },
+                {
+                    "text": "Parentheses, Exponential, Multiplication, Division, Addition, Subtraction",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "What command is used to insert 6 in a list 'L' at 3rd position ?",
+            "options": [{
+                    "text": "L.insert(3,6)"
+                },
+                {
+                    "text": "L.insert(2,6)",
+                    "correct": true
+                },
+                {
+                    "text": "L.add(3,6)"
+                },
+                {
+                    "text": "L.append(2,6)"
+                }
+            ]
+        },
+        {
+            "questionText": " Which of the following statements is used to create an empty set in Python?",
+            "options": [{
+                    "text": "set()",
+                    "correct": true
+                },
+                {
+                    "text": "()"
+                },
+                {
+                    "text": "[]"
+                },
+                {
+                    "text": "{}"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following is a Python tuple?",
+            "options": [{
+                    "text": "(1, 2, 3)",
+                    "correct": true
+                },
+                {
+                    "text": "{1, 2, 3}"
+                },
+                {
+                    "text": "[1, 2, 3]"
+                },
+                {
+                    "text": "{}"
+                }
+            ]
+        },
+        {
+            "questionText": "When will the else part of try-except-else be executed?",
+            "options": [{
+                    "text": "when no exception occurs",
+                    "correct": true
+                },
+                {
+                    "text": "when an exception occurs"
+                },
+                {
+                    "text": "when an exception occurs in to except block"
+                },
+                {
+                    "text": "always"
+                }
+            ]
+        }
+    ]
+}

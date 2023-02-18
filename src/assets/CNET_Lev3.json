@@ -1,0 +1,175 @@
+
+{
+    "questions": [{
+            "questionText": "Which ASP.NET performance counter is the best indicator of inefficient caching?",
+            "options": [{
+                    "text": "Hit ratio counters"
+                },
+                {
+                    "text": "Misses cache counter"
+                },
+                {
+                    "text": "Hits cache counter"
+                },
+                {
+                    "text": "Turnover rate performance counter",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "myMobile.Accept(55,inReject:false);Given Statement is an example of which new concept of C# 4.0?",
+            "options": [{
+                    "text": "Optional Parameters"
+                },
+                {
+                    "text": "Named Parameters",
+                    "correct": true
+                },
+                {
+                    "text": "Dynamic"
+                },
+                {
+                    "text": "Variance"
+                }
+            ]
+        },
+        {
+            "questionText": "If I'm developing an application that must accommodate multiple security levels though secure login and my ASP.NET web application is spanned across three web-servers (using round-robin load balancing) what would be the best approach to maintain login-in state for the users?",
+            "options": [{
+                    "text": "Maintain the login state security through a Session."
+                },
+                {
+                    "text": "Maintain the login state security through a database.",
+                    "correct": true
+                },
+                {
+                    "text": "Maintain the login state security through a View State."
+                },
+                {
+                    "text": "All of the Above"
+                }
+            ]
+        },
+        {
+            "questionText": ".COM Interop is simplified in C# 4.0 e.g.var doc = Application.GetDocument('MyFile.txt'); In given statement_______________keyword was essential in parameters of GetDocument() in previous versions of C#.",
+            "options": [{
+                    "text": "out"
+                },
+                {
+                    "text": "ref",
+                    "correct": true
+                },
+                {
+                    "text": "named"
+                },
+                {
+                    "text": "base"
+                }
+            ]
+        },
+        {
+            "questionText": "For your ASP.NET web application your graphics designer created elaborate images that show the product lines of your company. Some of graphics of the product line are rectangular, circular, and others are having complex shapes. You need to use these images as a menu on your Web site. What is the best way of incorporating these images into your Web site?",
+            "options": [{
+                    "text": "Use an ImageMap control and define hot spot areas for each of the product lines. Use the PostBackValue to identify the product line that was clicked.",
+                    "correct": true
+                },
+                {
+                    "text": "Use ImageButton and use the x- and y-coordinates that are returned when the user clicks to figure out what product line the user clicked."
+                },
+                {
+                    "text": "Use the Table, TableRow, and TableCell controls, break the image into pieces that are displayed in the cells, and use the TableCell control's Click event to identify the product line that was clicked."
+                },
+                {
+                    "text": "Use the MultiView control and break up the image into pieces that can be displayed in each View control for each product line. Use the Click event of the View to identify the product line that was clicked."
+                }
+            ]
+        },
+        {
+            "questionText": "Find any errors in the following BankAccount constructor: Public int BankAccount() {balance =0;}",
+            "options": [{
+                    "text": "Name"
+                },
+                {
+                    "text": "Formal parameters"
+                },
+                {
+                    "text": "No errors"
+                },
+                {
+                    "text": "Return type",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "______________ element in the web.config file is used to run code using the permissions of a specific user",
+            "options": [{
+                    "text": "<authorization> element"
+                },
+                {
+                    "text": "<identity> element",
+                    "correct": true
+                },
+                {
+                    "text": "<authentication> element"
+                },
+                {
+                    "text": "<credential> element"
+                }
+            ]
+        },
+        {
+            "questionText": "In the body of a method, C# uses the variable named___________to refer to the current object whose method is being invoked",
+            "options": [{
+                    "text": "this",
+                    "correct": true
+                },
+                {
+                    "text": "call"
+                },
+                {
+                    "text": "do"
+                },
+                {
+                    "text": "that"
+                }
+            ]
+        },
+        {
+            "questionText": "An ASP.NET page uses a Datagrid to display employee information.The Web application supports a large number of concurrent users who will be saving data from the grid back to the database. It is important that the Web application doesn't overwhelm the Web Server.",
+            "options": [{
+                    "text": "Disable View State and don't use session state",
+                    "correct": true
+                },
+                {
+                    "text": "Use View State"
+                },
+                {
+                    "text": "Use URL munging"
+                },
+                {
+                    "text": "Disable ViewState and use Session State"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the proper header for a class that intends to use an interface.",
+            "options": [{
+                    "text": "class MyClass :IFace",
+                    "correct": true
+                },
+                {
+                    "text": "class MyClass ;IFace"
+                },
+                {
+                    "text": "class MyClass {IFace}"
+                },
+                {
+                    "text": "class MyClass(IFace)"
+                }
+            ]
+        }
+    ]
+}

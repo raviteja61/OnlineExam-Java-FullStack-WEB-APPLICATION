@@ -1,0 +1,187 @@
+
+{
+    "questions": [{
+            "questionText": "PHP Stands for _________.",
+            "options": [{
+                    "text": "Personal Home page"
+                },
+                {
+                    "text": "PHP Hypertext Preprocessor",
+                    "correct": true
+                },
+                {
+                    "text": "Pro Hypertext Preprocessor"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "PHP files have a default file extension of __________",
+            "options": [{
+                    "text": ".xml"
+                },
+                {
+                    "text": ".html"
+                },
+                {
+                    "text": ".php",
+                    "correct": true
+                },
+                {
+                    "text": ".py"
+
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following is/are a PHP code editor  ",
+            "options": [{
+                    "text": "Notepad ++"
+                },
+                {
+                    "text": "VS Code Editor"
+                },
+                {
+                    "text": "Sublime Text"
+                },
+                {
+                    "text": "All of the above",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText":"PHP is an example of ___________ scripting language.",
+            "options": [{
+                    "text":"Server-side",
+                    "correct": true
+                },
+                {
+                    "text": "Client-side"
+                },
+                {
+                    "text": "Browser-side"
+                    
+                },
+                {
+                    "text": "In-side"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "PHP scripts are enclosed within _______",
+            "options": [{
+                    "text": "<php> . . . </php>"
+                },
+                {
+                    "text": "<?php . . . ?>",
+                    "correct": true
+                },
+                {
+                    "text": "?php . . . ?php"
+
+                },
+                {
+                    "text": "<p> . . . </p>"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following method sends input to a script via a URL?",
+            "options": [{
+                "text": "Get",
+                "correct": true
+                },
+                {
+                    "text": "Post"
+                },
+                {
+                    "text": "Both"
+                },
+                {
+                    "text": "None"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "What is the correct way to end a PHP statement?",
+            "options": [{
+                    "text": ";",
+                    "correct": true
+                },
+                {
+                    "text": "New ine"
+                },
+                {
+                    "text": "</php>"
+                },
+                {
+                    "text": "."
+                }
+            ]
+        },
+        {
+            "questionText": "Which operator is used to check if two values are equal and of same data type?",
+            "options": [{
+                    "text": "=="
+
+                },
+                {
+                    "text": "="
+                },
+                {
+                    "text": "===",
+                    "correct": true
+
+                },
+                {
+                    "text": "!="
+                }
+            ]
+        },
+        {
+            "questionText": "What is the correct way to add 1 to the $count variable?",
+            "options": [{
+                    "text": "++count"
+
+                },
+                {
+                    "text": "$count++;",
+                    "correct": true
+
+                },
+                {
+                    "text": "count++;"
+                },
+                {
+                    "text": "$count =+1"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the correct way to create a function in PHP?",
+            "options": [{
+                "text": "new_function myFunction()"
+                },
+                {
+                    "text": "create myFunction()"
+                },
+                {
+                    "text": "function()"
+                },
+                {
+                    "text": "function myFunction()",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

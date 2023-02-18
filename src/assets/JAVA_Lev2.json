@@ -1,0 +1,181 @@
+
+{
+    "questions": [{
+            "questionText": "From the given options, which one is a valid declaration (and assignment) for a boolean",
+            "options": [{
+                    "text": "boolean b4 = Boolean.false();"
+                },
+                {
+                    "text": "boolean b2 = 'false';"
+                },
+                {
+                    "text": "boolean b1 = 0;"
+                },
+                {
+                    "text": "boolean b3 = false;",
+                     "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "The static keyword word is used in public static void main() declaration in java: ",
+            "options": [{
+                    "text": "To enable the JVM to make call to the main(),as class has not been instantiated.",
+                    "correct": true
+                },
+                {
+                    "text": "To enable the JVM to make call to the main(),as class has not been inherited."
+                },
+                {
+                    "text": "To enable the JVM to make call to the main(),as class has not been loaded."
+                },
+                {
+                    "text": "To enable the JVM to make call to the main(),as class has not been finalized."
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which Set class should be most popular in a multi-threading environment, considering performance constraint?",
+            "options": [{
+                    "text": "HashSet"
+                },
+                {
+                    "text": " ConcurrentSkipListSet",
+                    "correct": true
+                },
+                {
+                    "text": " LinkedHashSet"
+                },
+                {
+                    "text": " CopyOnWriteArraySet"
+                }
+            ]
+            
+        },
+        {
+            "questionText":"Which of the following statement is correct?",
+            "options": [{
+                    "text":" reverse() method reverses all characters.",
+                    "correct": true
+                },
+                {
+                    "text": "reverseall() method reverses all characters."
+                },
+                {
+                    "text": " replace() method replaces first occurrence of a character in invoking string with another character."
+                },
+                {
+                    "text": "replace() method replaces last occurrence of a character in invoking string with another character."
+                }
+            ]
+            
+        },
+        {
+            "questionText": " Which of the following is correct way of implementing an interface salary by class manager?",
+            "options": [{
+                    "text": " class manager extends salary {}"
+                },
+                {
+                    "text": "class manager implements salary {}",
+                    "correct": true
+                },
+                {
+                    "text": " class manager imports salary {}"
+                },
+                {
+                    "text": "None of the mentioned."
+                }
+            ]
+            
+        },
+        {
+            "questionText": "What is it that we need for connecting to any database from our Java application",
+            "options": [{
+                    "text": "Oracle SQLDeveloper"
+                },
+                {
+                    "text": "JDBC Driver",
+                    "correct": true
+                },
+                {
+                    "text": ".NET Provider"
+                },
+                {
+                    "text": "None from the options"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Carefully read the question and answer accordingly. A class can be declared as _______ if you do not want the class to be subclasses. Using the __________keyword we can abstract a class from its implementation",
+            "options": [{
+                    "text": "Protected, interface"
+                },
+                {
+                    "text": "Private, abstract"
+                },
+                {
+                    "text": "Public, friend"
+                },
+                {
+                    "text": "Final, interface",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "What will be the output of the program? System.out.println(Math.sqrt(-4D));",
+            "options": [{
+                    "text": "-2"
+                },
+                {
+                    "text": "Compile Error"
+                },
+                {
+                    "text": "Runtime Exception"
+                },
+                {
+                    "text": "NaN",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": " Which of these keywords is used to by the calling function to guard against the exception that is thrown by called function?",
+            "options": [{
+                    "text": "try"
+
+                },
+                {
+                    "text": "throw"
+                },
+                {
+                    "text": "throws",
+                    "correct": true
+                },
+                {
+                    "text": "catch"
+                }
+            ]
+        },
+        {
+            "questionText": "Class A, B and C are in multilevel inheritance hierarchy respectively. In the main method of some other class if class C object is created, in what sequence the three constructors execute?",
+            "options": [{
+                    "text": "Constructor of A executes first, followed by the constructor of B and C",
+                    "correct": true
+                },
+                {
+                    "text": "Constructor of A executes first followed by the constructor of C and B"
+                },
+                {
+                    "text": "Constructor of C executes first followed by the constructor of A and B"
+                },
+                {
+                    "text": "Constructor of C executes first followed by the constructor of B and A"
+                }
+            ]
+        }
+    ]
+}

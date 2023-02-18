@@ -1,0 +1,75 @@
+<div class="container">
+    <form [formGroup]="searchStudentPage" (ngSubmit)="searching()">
+
+        <h1 style="color: rgb(179, 255, 1); text-align: center; text-decoration: underline;">Search Student</h1>
+
+        <div>
+            <a href="" style="margin-left: 96%;" [routerLink]="'/admin-login'">Logout</a>
+        </div>
+        
+        <br><br>
+        
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Technology</label>
+            <select class="form-control" name="tech_drop" formControlName="tech_drop">
+                <option value="" disabled>Select a Technology</option>
+                <option>Java</option>
+                <option>SQL</option>
+                <option>PHP</option>
+                <option>C/C++</option>
+                <option>Python</option>
+                <option>C#/.net</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">State</label>
+            <select placehodler="State" class="form-control" [(ngModel)]="selectedState" (change)="changeState($event)" formControlName="state_drop">
+                <option *ngFor="let state of states">{{state.name}}</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">City</label>
+            <select placeholder="City" class="form-control" formControlName="city_drop">
+                <option *ngFor="let city of cities">{{city}}</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Levels</label>
+            <select name="levels_drop" class="form-control" formControlName="levels_drop">
+                <option>Level 1</option>
+                <option>Level 2</option>
+                <option>Level 3</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Marks</label>
+            <select name="marks" class="form-control" formControlName="marks_drop">
+                <option>Grade F : 0-20 %</option>
+                <option>Grade D : 20-40 %</option>
+                <option>Grade C : 40-60 %</option>
+                <option>Grade B : 60-80 %</option>
+                <option>Grade A : 80-100 %</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div>
+            <button id="btn_search" type="submit" routerLink="/student-table" style="margin-left: 48%;">SEARCH STUDENTS</button>
+        </div>
+    </form>
+</div>
+
+<router-outlet></router-outlet>

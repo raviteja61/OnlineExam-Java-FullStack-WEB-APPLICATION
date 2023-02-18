@@ -1,0 +1,192 @@
+
+{
+    "questions": [{
+            "questionText": "Which one of the following can be used to instantiate an object in PHP assuming class name to be Foo?",
+            "options": [{
+                    "text": "$obj = new $foo;"
+                },
+                {
+                    "text": "$obj = new foo;"
+                    
+                },
+                {
+                    "text": "$obj = new foo ();",
+                    "correct": true
+                },
+                {
+                    "text": " obj = new foo ();"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "To validate an e-mail address, which flag is to be passed to the function filter_var()?",
+            "options": [{
+                    "text": "VALIDATE_MAIL"
+                },
+                {
+                    "text": "VALIDATE_EMAIL"
+                },
+                {
+                    "text": "FILTER_VALIDATE_EMAIL",
+                    "correct": true
+                },
+                {
+                    "text": "FILTER_VALIDATE_MAIL"
+
+
+
+                }
+            ]
+            
+        },
+        {
+            "questionText": " Which one of the following lines need to be uncommented or added in the php.ini file so as to enable mysqli extension?",
+            "options": [{
+                    "text": "extension=mysql.dll"
+                },
+                {
+                    "text": "extension=php_mysqli.dll",
+                    "correct": true
+                },
+                {
+                    "text": "extension=php_mysqli.dl"
+                },
+                {
+                    "text": "extension=mysqli.dl"
+                    
+                }
+            ]
+            
+        },
+        {
+            "questionText":" Which of the following is used to access session variables in PHP?",
+            "options": [{
+                    "text":" $_SESSION[] ",
+                    "correct": true
+                },
+                {
+                    "text": "session_start() function"
+
+
+                },
+                {
+                    "text": "isset() function"
+                    
+                },
+                {
+                    "text": "session_destroy() function"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following is an associative array of variables passed to the current script via HTTP cookies?",
+            "options": [{
+                    "text": "$GLOBALS"
+                },
+                {
+                    "text": " $_COOKIE",
+                    "correct": true
+                },
+                {
+                    "text": "  $_SERVER"
+
+                },
+                {
+                    "text": "$_SESSION "
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following type of variables are sequences of characters, like 'PHP supports string operations.'?",
+            "options": [{
+                "text": "Strings ",
+                "correct": true
+                },
+                {
+                    "text": "Arrays"
+                },
+                {
+                    "text": "Objects"
+                },
+                {
+                    "text": "None"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following method of Exception class retrieve the error message when error occured?",
+            "options": [{
+                    "text": "getMessage()",
+                    "correct": true
+                },
+                {
+                    "text": "getCode()"
+                },
+                {
+                    "text": "getFile()"
+                },
+                {
+                    "text": "getLine()"
+                }
+            ]
+        },
+        {
+            "questionText": "The array index starts from ______?",
+            "options": [{
+                    "text": "-1"
+
+                },
+                {
+                    "text": "2"
+                },
+                {
+                    "text": "0",
+                    "correct": true
+
+                },
+                {
+                    "text": "1"
+                }
+            ]
+        },
+        {
+            "questionText":  "$array = array('first' => null, 'second' => 4); isset($array['first']); ?> Choose the correct answer.",
+            "options": [{
+                    "text": "Isset returns true"
+
+                },
+                {
+                    "text" : "Isset returns false",
+                    "correct" : true
+                },
+                {
+                    "text" : "Compilation Error"
+                },
+                {
+                    "text": "Error in code"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following built-in functions returns an array consisting of associative key/value pairs?",
+            "options": [{
+                "text": "count_values()"
+                },
+                {
+                    "text": "array_count()"
+                },
+                {
+                    "text": "function()"
+                },
+                {
+                    "text": "array_count_values()",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

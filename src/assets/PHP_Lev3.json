@@ -1,0 +1,195 @@
+
+{
+    "questions": [{
+            "questionText": "$i = 0; while ($i <= 0): echo $i; $i++; endwhile; ?> What value will it give?",
+            "options": [{
+                    "text": "1"
+                },
+                {
+                    "text": "0"
+                    
+                },
+                {
+                    "text": "Displays nothing",
+                    "correct": true
+                },
+                {
+                    "text": "Error in code"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "$arr = array(1, 2, 3, 4); foreach ($arr as &$value) { $value = $value * 2; } echo $value; unset($value); ?> What is the result?",
+            "options": [{
+                    "text": "NULL"
+                },
+                {
+                    "text": "8",
+                    "correct": true
+
+                },
+                {
+                    "text": "0"
+                },
+                {
+                    "text": "Error in code"
+
+
+
+                }
+            ]
+            
+        },
+        {
+            "questionText": "If $a = 12 what will be returned when ($a == 12) ? 5 : 1 is executed?",
+            "options": [{
+                    "text": "1"
+                },
+                {
+                    "text": "5 ",
+                    "correct": true
+                },
+                {
+                    "text": "12"
+                },
+                {
+                    "text": "Error"
+                    
+                }
+            ]
+            
+        },
+        {
+            "questionText":" Which variable is used to collect form data sent with both the GET and POST methods?",
+            "options": [{
+                    "text":" $_REQUEST ",
+                    "correct": true
+                },
+                {
+                    "text": "$_BOTH"
+
+
+                },
+                {
+                    "text": "$REQUEST"
+                    
+                },
+                {
+                    "text": "$BOTH"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "for ($i = 1; ; $i++) { if ($i > 10) { break; } echo $i; } ?> What result will it give?",
+            "options": [{
+                    "text": "1234567891011"
+                },
+                {
+                    "text": "12345678910",
+                    "correct": true
+                },
+                {
+                    "text": "Error in code"
+
+                },
+                {
+                    "text": "None"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following statements causes PHP to disregard repeated error messages that occur within the same file and on the same line?",
+            "options": [{
+                "text": "ignore_repeat_error"
+                
+                },
+                {
+                    "text": "repeatedly_ignore_error"
+                },
+                {
+                    "text": "ignore_repeated_errors",
+                    "correct": true
+                },
+                {
+                    "text": "repeated_error_ignore"
+                }
+            ]
+            
+        },
+        {
+            "questionText": " $email = 'name@example.com'; $domain = strstr($email, '@'); echo $domain; ?> Whats the result of above code?",
+            "options": [{
+                    "text": "@example.com",
+                    "correct": true
+                },
+                {
+                    "text": "@example"
+                },
+                {
+                    "text": "Name"
+                },
+                {
+                    "text": "Name@example.com"
+                }
+            ]
+        },
+        {
+            "questionText": " Which one of the following is the right way to clone an object?",
+            "options": [{
+                    "text": "_clone(targetObject);"
+
+                },
+                {
+                    "text": "destinationObject = _clone(targetObject);"
+                },
+                {
+                    "text": " destinationObject = clone targetObject;",
+                    "correct": true
+
+                },
+                {
+                    "text": "destinationObject = clone(targetObject);"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following is correct about ereg() function?",
+            "options": [{
+                    "text": "The ereg() function searches string for pattern, returning true if pattern exists, and false otherwise."
+
+                },
+                {
+                    "text": " The ereg() function searches a string specified by string for a string specified by pattern, returning true if the pattern is found, and false otherwise.",
+                    "correct": true
+
+                },
+                {
+                    "text": "The ereg() function searches throughout a string specified by pattern for a string specified by string. The search is not case sensitive."
+                },
+                {
+                    "text": "None of the above"
+                }
+            ]
+        },
+        {
+            "questionText": "As of PHP 5.3.0, PHP implements a feature which can be used to reference the called class in a context of static inheritance. How is it called?",
+            "options": [{
+                "text": "Static bindings"
+                },
+                {
+                    "text": "Static bindings"
+                },
+                {
+                    "text": "Class bindings"
+                },
+                {
+                    "text": "Late static bindings",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

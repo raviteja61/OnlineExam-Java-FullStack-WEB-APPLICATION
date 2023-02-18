@@ -1,0 +1,175 @@
+
+{
+    "questions": [{
+            "questionText": "Which access modifier makes the code only accessible within the same class?",
+            "options": [{
+                    "text": "abstract"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "final"
+                },
+                {
+                    "text": "private",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Select the method to give formatted output",
+            "options": [{
+                    "text": "Response.Outputs.Write()"
+                },
+                {
+                    "text": "Response.Output.Write()",
+                    "correct": true
+                },
+                {
+                    "text": "Response.Output.Writes"
+                },
+                {
+                    "text": "Response.Write()"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following is true about C# structures?",
+            "options": [{
+                    "text": "Unlike classes, structures cannot inherit other structures or classes."
+                },
+                {
+                    "text": "Structure members cannot be specified as abstract, virtual, or protected."
+                },
+                {
+                    "text": "A structure can implement one or more interfaces."
+                },
+                {
+                    "text": "All of the above.",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Web forms are inherited from which class",
+            "options": [{
+                    "text": "Master class"
+                },
+                {
+                    "text": "Page class",
+                    "correct": true
+                },
+                {
+                    "text": "Frame class"
+                },
+                {
+                    "text": "Browser class"
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following preprocessor directive allows testing a symbol or symbols to see if they evaluate to true in C#?",
+            "options": [{
+                    "text": "if",
+                    "correct": true
+                },
+                {
+                    "text": "elif"
+                },
+                {
+                    "text": "define"
+                },
+                {
+                    "text": "undef"
+                }
+            ]
+        },
+        {
+            "questionText": " What is MVC?",
+            "options": [{
+                    "text": "WebApplication"
+                },
+                {
+                    "text": "Software"
+                },
+                {
+                    "text": "Browser"
+                },
+                {
+                    "text": "Framework",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following preprocessor directive lets you specify a block of code that you can expand or collapse when using the outlining feature of the Visual Studio Code Editor in C#?",
+            "options": [{
+                    "text": "warning"
+                },
+                {
+                    "text": "region",
+                    "correct": true
+                },
+                {
+                    "text": "line"
+                },
+                {
+                    "text": "error"
+                }
+            ]
+        },
+        {
+            "questionText": "Select the file extension of web service",
+            "options": [{
+                    "text": ".asmx",
+                    "correct": true
+                },
+                {
+                    "text": ".asdx"
+                },
+                {
+                    "text": ".aspx"
+                },
+                {
+                    "text": ".asax"
+                }
+            ]
+        },
+        {
+            "questionText": "Once applied which of the following CANNOT inspect the applied attribute?",
+            "options": [{
+                    "text": "Linker",
+                    "correct": true
+                },
+                {
+                    "text": "ASP.NET Runtime"
+                },
+                {
+                    "text": "Visual Studio.NET"
+                },
+                {
+                    "text": "Language compilers"
+                }
+            ]
+        },
+        {
+            "questionText": " Select the event which is NOT in page life cycle.",
+            "options": [{
+                    "text": "Page_Unload",
+                    "correct": true
+                },
+                {
+                    "text": "Page_Loadcomplete"
+                },
+                {
+                    "text": "Page_Preload"
+                },
+                {
+                    "text": "Page_Load"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+<button id="btn_newExam" [disabled]="false" (click)="goToExamPage()" class="btn btn-primary" style="margin-top: 6%; margin-left: 13%; width: 20%; border-color: rgb(255, 255, 255);" routerLink="/exampage" routerLinkActive="active">
+  <i class="fa fa-arrow-circle-right" aria-hidden="true"></i>&nbsp;&nbsp;GO TO EXAM MENU PAGE</button>
+
+  <div style="margin-top: 4%;">
+  <p style="text-decoration: underline;" id="home-para">Testify</p>
+  <p id="home-para"> is an Online Examination system, it was designed with a mission to strive for excellence, with an expertise in driving assessments in the educational domain. We prioritize quality customer experience with a goal to conduct test online assuring minimal human-intervention.
+    We provide the management of examination and assessment, using an advanced hassle-free transactional interface. The streamlined process flow help with the easy creation of tests, circulation of products, calculation of scores, etc.<br><br> It provides development of an improved communication link in-between the assessor and the assessee. Multiple tests can be clubbed together to form a product that can be purchased by the candidate and would contribute to the revenue generation. Secured flow of information, multiple payment gateway options, synchronized android and iOS interface will take you to the next level of examination. The panel is self- operational that requires simple online subscription that is extremely easy to use and learn.
+    Now, perform exams meeting your requirements to restrict and liberate the movement, depute timelines, transparency of the text, shuffle and randomize, define guidelines, use tags assuring smoother search, allocate penalty on incorrect attempts, and more wherever and whenever you want to.</p>
+  </div>
+
+  <div style="margin-left: 82%;">
+    <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-secondary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-success" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-danger" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-warning" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-info" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-light" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <div class="spinner-border text-dark" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+</div>
+  <router-outlet></router-outlet>

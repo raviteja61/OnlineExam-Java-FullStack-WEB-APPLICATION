@@ -1,0 +1,184 @@
+
+{
+    "questions": [{
+            "questionText": "How do you insert COMMENTS in Python code?",
+            "options": [{
+                    "text": "/*This is a comment*/"
+                },
+                {
+                    "text": "<This is a comment>"
+                },
+                {
+                    "text": "#This is a comment",
+                    "correct": true
+                },
+                {
+                    "text": "//This is a comment"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which one is NOT a legal variable name?",
+            "options": [{
+                    "text": "Myvar"
+                },
+                {
+                    "text": "my_var"
+                },
+                {
+                    "text": "_myvar"
+                },
+                {
+                    "text": "my-var",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "What is the correct file extension for Python files?",
+            "options": [{
+                    "text": ".py",
+                    "correct": true
+                },
+                {
+                    "text": ".pyt"
+                },
+                {
+                    "text": ".pt"
+                },
+                {
+                    "text": ".pyth"
+                }
+            ]
+            
+        },
+        {
+            "questionText":"What is the correct syntax to output the type of a variable or object in Python?",
+            "options": [{
+                    "text":"print(typeOf(x))"
+                },
+                {
+                    "text": "print(type(x))",
+                    "correct": true
+                },
+                {
+                    "text": "print(typeof x)"
+                    
+                },
+                {
+                    "text": "print(typeof(x))"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which method can be used to replace parts of a string?",
+            "options": [{
+                    "text": "replaceString()"
+                },
+                {
+                    "text": "repl()"
+                },
+                {
+                    "text": "replace()",
+                    "correct": true
+
+                },
+                {
+                    "text": "switch()"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which collection is ordered, changeable, and allows duplicate members?",
+            "options": [{
+                "text": "TUPLE"
+                },
+                {
+                    "text": "LIST",
+                    "correct": true
+                },
+                {
+                    "text": "SET"
+                },
+                {
+                    "text": "DICTIONARY"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "How do you start writing a while loop in Python?",
+            "options": [{
+                    "text": "while x > y:",
+                    "correct": true
+                },
+                {
+                    "text": "while (x > y)"
+                },
+                {
+                    "text": "x > y while {"
+                },
+                {
+                    "text": "while x > y {"
+                }
+            ]
+        },
+        {
+            "questionText": "Which statement is used to stop a loop?",
+            "options": [{
+                    "text": "break",
+                    "correct": true
+
+                },
+                {
+                    "text": "exit"
+                },
+                {
+                    "text": "stop"
+                },
+                {
+                    "text": "return"
+                }
+            ]
+        },
+        {
+            "questionText": "How do you start writing an if statement in Python?",
+            "options": [{
+                    "text": "if x > y then:"
+
+                },
+                {
+                    "text": "if (x > y)"
+                },
+                {
+                    "text": "if x > y:",
+                    "correct": true
+                },
+                {
+                    "text": "if x < y then:"
+                }
+            ]
+        },
+        {
+            "questionText": "Which operator can be used to compare two values?",
+            "options": [{
+                "text": "="
+                },
+                {
+                    "text": "><"
+                },
+                {
+                    "text": "<>"
+                },
+                {
+                    "text": "==",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+<div class="container" style="width: 40%; float: left; margin-left: 5%;">
+    <form [formGroup]="removeQuesPage" (ngSubmit)="ques_removed()" >
+
+        <div class="form-group">
+            <a [routerLink]="'/admin-login'" style="margin-left: 235%;">Logout</a>
+        </div>
+        <br>
+        <br>
+        <h1 style="color: rgb(255, 255, 255); text-align: center; text-decoration: underline; font-weight: 400; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">REMOVE QUESTION</h1>
+
+        <br><br>
+    
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Select Test : </label>
+            <select class="form-control" name="tech_drop" formControlName="tech_drop" >
+                <option value="" disabled>Select a Technology</option>
+                <option>Java</option>
+                <option>SQL</option>
+                <option>PHP</option>
+                <option>C/C++</option>
+                <option>Python</option>
+                <option>C#/.net</option>
+            </select>
+        </div>
+        <div *ngIf="removeQues['tech_drop'].errors && removeQues['tech_drop'].touched" class="alert alert-danger"> 
+            Invalid Choice!
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Mention the Question Number : </label>
+            <input id="qId" type="number" class="form-control" formControlName="qId" name="qId" value="Question ID">
+        </div>
+        <div *ngIf="removeQues['qId'].errors && removeQues['qId'].touched" class="alert alert-danger"> 
+            Invalid File!
+        </div>
+
+        <br>
+
+        <div>
+            <button id="btn_rem_ques" type="submit" [disabled]="removeQuesPage.invalid" style="margin-left: 48%;" class="btn btn-primary">REMOVE</button>
+        </div>
+
+    </form>
+</div>

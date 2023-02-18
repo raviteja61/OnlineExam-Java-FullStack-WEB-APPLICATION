@@ -1,0 +1,76 @@
+<div class="container" style="float: left; margin-left: -14%;">
+    <form [formGroup]="addQuesPage" (ngSubmit)="ques_added()" style="width: 50%; margin-left: 20%; ">
+
+        <div class="form-group">
+            <a [routerLink]="'/admin-login'" style="margin-left: 217%; color: rgb(125, 195, 255);" >Logout</a>
+        </div>
+        
+        <h1 style="color: rgb(255, 255, 255); text-align: center; font-weight: 500; text-decoration: underline;">ADD QUESTION</h1>
+
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">New Question : </label>
+            <input id="questionText" type="text" class="form-control" name="questionText" formControlName="questionText">
+        </div>
+        <div *ngIf="addQues['questionText'].errors && addQues['questionText'].touched" class="alert alert-danger"> 
+            Invalid Question!
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">A : </label>
+            <input id="option1" type="text" class="form-control" name="option1" formControlName="option1">
+        </div>
+        <div *ngIf="addQues['option1'].errors && addQues['option1'].touched" class="alert alert-danger"> 
+            Invalid Option!
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">B : </label>
+            <input id="option2" type="text" class="form-control" name="option2" formControlName="option2">
+        </div>
+        <div *ngIf="addQues['option2'].errors && addQues['option2'].touched" class="alert alert-danger"> 
+            Invalid Option!
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">C : </label>
+            <input id="option3" type="text" class="form-control" name="option3" formControlName="option3">
+        </div>
+        <div *ngIf="addQues['option3'].errors && addQues['option3'].touched" class="alert alert-danger"> 
+            Invalid Option!
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">D : </label>
+            <input id="option4" type="text" class="form-control" name="option4" formControlName="option4">
+        </div>
+        <div *ngIf="addQues['option4'].errors && addQues['option4'].touched" class="alert alert-danger"> 
+            Invalid Option!
+        </div>
+
+        <br>
+
+        <div class="form-group">
+            <label style="color: beige; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Correct Answer : </label>
+            <input id="answer" type="text" class="form-control" name="answer" formControlName="answer">
+        </div>
+        <div *ngIf="addQues['answer'].errors && addQues['answer'].touched" class="alert alert-danger"> 
+            Invalid Correct Answer!
+        </div>
+
+        <br><br>
+
+        <div>
+            <button id="btn_add_ques" type="submit" [disabled]="addQuesPage.invalid" style="margin-left: 43%;" class="btn btn-primary">SUBMIT</button>
+        </div>
+    </form>
+</div>

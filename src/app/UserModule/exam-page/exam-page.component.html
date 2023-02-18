@@ -1,0 +1,42 @@
+
+<a [routerLink]="'/users/loginpage'" style="margin-left: 96%;">Logout</a> 
+<br><br><br><br><br>
+<h1 style="color: white; text-decoration: underline; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-left: 2%;">Select a Technology : </h1>
+    <div style="margin-left: 4%;">
+        <button id="btn_Java" class="btn btn-primary" (click)="goToJavaInstructions()">Java</button>
+        <button id="btn_SQL" class="btn btn-primary" (click)="goToSQLInstructions()">SQL</button>
+        <button id="btn_PHP" class="btn btn-primary" (click)="goToPHPInstructions()">PHP</button>
+    </div>
+    <div style="margin-left: 4%;">
+        <button id="btn_CPP" class="btn btn-primary" (click)="goToCPPInstructions()">C/C++</button>
+        <button id="btn_Python" class="btn btn-primary" (click)="goToPythonInstructions()">Python</button>
+        <button id="btn_CNet" class="btn btn-primary" (click)="goToCnetInstructions()">C#/.Net</button>
+    </div>
+
+    <div style="margin-left: 83%; margin-top: 22%;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-secondary" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-success" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-danger" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-warning" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-info" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-light" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+          <div class="spinner-border text-dark" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+    </div>
+    <router-outlet></router-outlet>

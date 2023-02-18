@@ -1,0 +1,186 @@
+
+{
+    "questions": [{
+            "questionText": "Which of the following is NOT a commonly accepted rule for joining multiple tables?",
+            "options": [{
+                    "text": " It is commonly accepted to list joins between tables before other items in the WHERE clause"                   
+                },
+                {
+                    "text": "It is recommended that joins between tables are based on Primary/Foreign keys"
+                },
+                {
+                    "text": "It is recommended that aliases be keywords to keep the statement uniform throughout",
+                    "correct": true
+                },
+                {
+                    "text": "Any table listed in a join statement MUST exist in the FROM element"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "When you normalize a relation by breaking it into two smaller relations, what must you do to maintain data integrity?",
+            "options": [{
+                    "text": "Link the relations by a common field"
+                   
+                },
+                {
+                    "text": "Remove any functional dependencies from both relations"
+                },
+                {
+                    "text": "Assign both relations the same primary key field(s)"
+                },
+                {
+                    "text": " Create a primary key(s) for the new relation",
+                    "correct": true
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following code will delete a view named all_marks_english?",
+            "options": [{
+                    "text": "drop view all_marks_english;",
+                    "correct": true
+                },
+                {
+                    "text": "delete view all_marks_english;"
+                },
+                {
+                    "text": "delete all_marks_english;"
+                },
+                {
+                    "text": "drop all_marks_english;"
+                }
+            ]
+            
+        },
+        {
+            "questionText":"Which of the following is true concerning a procedure?",
+            "options": [{
+                    "text":" You do not create them with SQL."
+                },
+                {
+                    "text": "They include procedural and SQL statements.",
+                    "correct": true
+                },
+                {
+                    "text": "They do not need to have a unique name."
+                    
+                },
+                {
+                    "text": "They are the same thing as a function."
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following statements, including both required and optional elements, will execute successfully?",
+            "options": [{
+                    "text": "SELECT department_desc FROM department_dimension ORDER BY department_code;"
+                },
+                {
+                    "text": "SELECT * FROM department_dimension;"
+                },
+                {
+                    "text": "SELECT department_code, department_desc FROM department_dimension WHERE college_code in ('01','08') ORDER BY department_code;",
+                    "correct": true
+
+                },
+                {
+                    "text": "SELECT department_desc WHERE department_code = '0012';"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which query contains a syntax error?",
+            "options": [{
+                "text": " SELECT P.PRODUCT_NAME FROM PRODUCT P WHERE PRODUCT_ID IN (SELECT P.PRODUCT_ID FROM PRODUCT P);"
+                },
+                {
+                    "text": " SELECT CREATED_BY_USER, COUNT(*) FROM PET_CARE_LOG WHERE CREATED_BY_USER IN (SELECT DISTINCT UPDATED_BY_USER, SALE_PRICE FROM PRODUCT) GROUP BY CREATED_BY_USER ORDER BY CREATED_BY_USER;",
+                    "correct": true
+                },
+                {
+                    "text": " SELECT C.FIRSTNAME FROM CUSTOMER C WHERE (C.CUST_ID, 'Dog') IN (SELECT CS.CUST_ID, P.PRODUCT_NAME FROM PRODUCT P, CUSTOMER_SALE CS, SALE_ITEM SALE WHERE CS.SALES_ID = SALE.SALES_ID AND P.PRODUCT_ID = SALE.PRODUCT_ID);"
+                },
+                {
+                    "text": " SELECT LAST_UPDATE_DATE, COUNT(*) FROM PRODUCT WHERE (UPDATED_BY_USER, TRUNC(LAST_UPDATE_DATE)) IN (SELECT DISTINCT CREATED_BY_USER, TRUNC(LOG_DATETIME) FROM PET_CARE_LOG) GROUP BY LAST_UPDATE_DATE ORDER BY 1"
+                }
+            ]
+            
+        },
+        {
+            "questionText": " Which query correctly uses an outer JOIN that involves the PRODUCT table and another table?",
+            "options": [{
+                    "text": "SELECT COUNT(*)FROM PET_CARE_LOGWHERE PRODUCT_ID IN (SELECT SI.PRODUCT_ID FROM PRODUCT P, SALE_ITEM SI WHERE P.PRODUCT_ID(+) = SI.PRODUCT_ID)",
+                    "correct": true
+                },
+                {
+                    "text": "SELECT P.PRODUCT_NAME FROM PRODUCT P, PET_CARE_LOG PCL WHERE P.PRODUCT_ID(+) = PCL.PRODUCT_ID(+)"
+                },
+                {
+                    "text": "SELECT CS.CUST_ID, P.PRODUCT_NAMEFROM PRODUCT P(+), CUSTOMER_SALE CS, SALE_ITEM SALEWHERE CS.SALES_ID = SALE.SALES_ID AND P.PRODUCT_ID = SALE.PRODUCT_ID"
+                },
+                {
+                    "text": " SELECT S.SALES_ID, S.SALE_AMOUNT, P.SALE_PRICEFROM SALE_ITEM S, PRODUCT PWHERE P.PRODUCT_ID = S.PRODUCT_ID(+)"
+                   
+                }
+            ]
+        },
+        {
+            "questionText": "What kind of query is best used to create a report listing customers by zip code, and including their associated purchase order numbers if they have made any orders?",
+            "options": [{
+                    "text": "A query with an outer JOIN between two tables",
+                    "correct": true
+
+                },
+                {
+                    "text": "A query with an IN clause that uses one column"
+                },
+                {
+                    "text": "A query with an inner JOIN between two tables"
+                },
+                {
+                    "text": "None of the Options"
+                }
+            ]
+        },
+        {
+            "questionText": "STUDENTS(student_code, first_name, last_name, email,  phone_no, date_of_birth, honours_subject, percentage_of_marks); Which of the following query would display the distinct honours subjects in the STUDENTS table?",
+            "options": [{
+                    "text": "select honours_subject from students; "
+
+                },
+                {
+                    "text": "select all honours_subject from students; "
+                },
+                {
+                    "text": "select distinct honours_subject from students;",
+                    "correct": true
+                },
+                {
+                    "text": "select * from students; "
+                }
+            ]
+        },
+        {
+            "questionText": "Consider the following schema - HONOURS_SUBJECT(subject_code, subject_name, department_head); LOCATIONS(subject_code, department_name, location_id, city); Select the right query for retrieving records from the tables HONOURS_SUBJECT and LOCATIONS with a full outer join ",
+            "options": [{
+                "text": "select h.subject_name, l.department_name, h.department_head, l.city from honours_subject h full outer join location l on(subject_code); "
+                },
+                {
+                    "text": "select h.subject_name, l.department_name, h.department_head, l.city from honours_subject h full outer join location l where (h.subject_code = l.subject_code);"
+                },
+                {
+                    "text": "None of the above."
+                },
+                {
+                    "text": "select h.subject_name, l.department_name, h.department_head, l.city from honours_subject h full outer join location l on(h.subject_code = l.subject_code); ",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,177 @@
+
+{
+    "questions": [{
+            "questionText": "What will be the output of the following Arithmetic Expression? 5+3*2%10-8*6 ",
+            "options": [{
+                    "text": "-42"
+                },
+                {
+                    "text": "-32"
+                },
+                {
+                    "text": "-37",
+                    "correct": true
+                },
+                {
+                    "text": "-28"
+                }
+            ]
+            
+        },
+        {
+            "questionText": "Which of the following statement is correct?",
+            "options": [{
+                    "text": "Once a reference variable has been defined to refer to a particular variable it can refer to any other variable."
+                },
+                {
+                    "text": "Once a reference variable has been defined to refer to a particular variable it cannot refer to any other variable.",
+                    "correct": true
+                },
+                {
+                    "text": "A reference is indicated by using && operator."
+                },
+                {
+                    "text": "A reference can be declared beforehand and initialized later."
+                }
+            ]
+        },
+        {
+            "questionText": "Which of the following statements are FALSE about the given code? int main(int ac, char *av[]){}",
+            "options": [{
+                    "text": "In place of ac and av, argc and argv should be used.",
+                    "correct": true
+                },
+                {
+                    "text": "ac contains count of arguments supplied at command-line"
+                },
+                {
+                    "text": "In place of ac and av, argc and argv should be used."
+                },
+                {
+                    "text": "The variables ac and av are always local to main()"
+                }
+            ]
+        },
+        {
+            "questionText": "What are the elements present in the array of the following C code? int array[5] = {5};",
+            "options": [{
+                    "text": " 5, 5, 5, 5, 5"
+                },
+                {
+                    "text": "5, 0, 0, 0, 0",
+                    "correct": true
+                },
+                {
+                    "text": "5, (garbage), (garbage), (garbage), (garbage)"
+                },
+                {
+                    "text": "(garbage), (garbage), (garbage), (garbage), 5"
+                }
+            ]
+        },
+        {
+            "questionText": "What is the output of Left Shift Operator << on (00011000<<2).?",
+            "options": [{
+                    "text": "01100000",
+                    "correct": true
+                },
+                {
+                    "text": "11000000"
+                },
+                {
+                    "text": "00000110"
+                },
+                {
+                    "text": "00000011"
+                }
+            ]
+        },
+        {
+            "questionText": "When is std::bad_alloc exception thrown?",
+            "options": [{
+                    "text": "When new operator cannot allocate memory"
+                },
+                {
+                    "text": "When alloc function fails"
+                },
+                {
+                    "text": "When type requested for new operation is considered bad,thisexception is thrown"
+                },
+                {
+                    "text": "When delete operator cannot delete the allocated (corrupted) object",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "questionText": "Choose a correct C Statement to choose number 66 in the array, int ary[3][2] = {{11,22},{33,44},{55,66}};",
+            "options": [{
+                    "text": " ary[2][1]"
+                },
+                {
+                    "text": " *(*(ary+2)+1)"
+                },
+                {
+                    "text": "*ary[2]+1"
+                },
+                {
+                    "text": "All the Above",
+                    "correct": true
+
+                }
+            ]
+        },
+        {
+            "questionText": "What's wrong? (x = 4 && y = 5)?(a = 5);(b = 6);",
+            "options": [{
+                    "text": "the conditional operator is only used with apstrings",
+                    "correct": true
+                },
+                {
+                    "text": "the question mark should be an equal sign"
+                },
+                {
+                    "text": "the first semicolon should be a colon"
+                },
+                {
+                    "text": "there are too many variables in the statement"
+                }
+            ]
+        },
+        {
+            "questionText": "Choose a correct statement about C Bitwise operators.?",
+            "options": [{
+                    "text": "0^number = number"
+                },
+                {
+                    "text": "1 | number = number"
+                },
+                {
+                    "text": "0 & number = 0"
+                },
+                {
+                    "text": " All the above",
+                    "correct": true
+
+                }
+            ]
+        },
+        {
+            "questionText": "If class A is friend of class B and if class B is friend of class C, which of the following is true?",
+            "options": [{
+                    "text": "Class A is friend of class C",
+                    "correct": true
+                },
+                {
+                    "text": "Class C is friend of class A"
+                },
+                {
+                    "text": "Class A and Class C do not have any friend relationship"
+                },
+                {
+                    "text": "None of the above"
+                }
+            ]
+        }
+    ]
+}
